@@ -128,19 +128,19 @@ body {
     text-transform: uppercase;
 }
 
-.sections__item-women {
+.sections__item--women {
     background-image: url(../img/for-women.jpg);
 }
 
-.sections__item-men {
+.sections__item--men {
     background-image: url(../img/for-men.jpg);
 }
 
-.sections__item-kids {
+.sections__item--kids {
     background-image: url(../img/for-kids.jpg);
 }
 
-.sections__item-accesories {
+.sections__item--accesories {
     background-image: url(../img/accesories.jpg);
     width: 100%;
     background-repeat: no-repeat;
