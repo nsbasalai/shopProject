@@ -55,13 +55,22 @@ body {
     fill: #E8E8E8;
 }
 
-.header__element:hover,
-.header__element:focus {
+.header__element:hover {
     fill: var(--pink);
 }
 
 .header__element:active {
     fill: #E8E8E8;
+}
+
+.header__button:hover, 
+.header__button:focus .header__element {
+    fill: var(--pink);
+}
+
+.header__link:hover,
+.header__link:focus .header__element {
+    fill: var(--pink);
 }
 
 .header__search {
@@ -444,12 +453,12 @@ footer {
     margin: 0 8px 0 0;
 }
 
-.socials__item:hover,
-.socials__item:focus {
+.socials__link:hover,
+.socials__link:focus {
     opacity: 0.5;
 }
 
-.socials__item:active {
+.socials__link:active {
     opacity: 1;
 }
 
@@ -565,20 +574,26 @@ footer {
     cursor: pointer;
 }
 
+.form__button-element {
+    position: absolute;
+    width: 17px;
+    height: 10px;
+    right: 29px;
+    top: 20px;
+}
+
+.form__button-line {
+    fill: white;
+}
+
+.form__button:hover .form__button-line {
+    fill: var(--pink);
+}
+
 .form__button:hover {    
     background-color: transparent;
     border: 1px solid var(--pink);
     color: var(--pink);
-}
-
-.form__button::after {
-    content: "";
-    position: absolute;
-    width: 17px;
-    height: 10px;
-    background-image: url(../img/arrow.svg);
-    right: 29px;
-    top: 20px;
 }
 
 .content__perks {
