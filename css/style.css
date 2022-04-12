@@ -39,14 +39,17 @@ body {
     align-items: center;
 }
 
+
 .header__group {
     display: flex;
     align-items: center;
 }
 
+
 .header__logo {
     margin-right: 41px;
 }
+
 
 .header__element {
     fill: #E8E8E8;
@@ -89,6 +92,7 @@ body {
     border: none;
     background-color: transparent;
     cursor: pointer;
+
 }
 
 .header__item {
@@ -608,4 +612,3 @@ footer {
     left: -42px;
     background-image: url(../img/check.svg);
 }
-
