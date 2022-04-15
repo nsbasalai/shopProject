@@ -1,0 +1,36 @@
+.content__wrp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__perks {
+    margin: 0 128px 0;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.content__title {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0 0 24px;
+}
+
+.content__item {
+    position: relative; 
+    margin: 0 43px 16px;
+}
+
+.content__list {
+    margin: 21px 0 0;
+}
+
+.content__item::before {
+    content: "";
+    width: 20px;
+    height: 16px;
+    position: absolute;
+    top: 6px;
+    left: -42px;
+    background-image: url(../img/check.svg);
+}

@@ -1,0 +1,41 @@
+.brand {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 64px;
+}
+
+.brand__headline-wrp {
+    background-color: $light-pink;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.brand__headline {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    margin: 0 92px 0;
+    position: relative;
+}
+
+.brand__headline::before {
+    content: "";
+    position: absolute;
+    background-color: $pink;
+    width: 12px;
+    height: 92px;
+    left: -28px;
+}
+
+.brand__subheadline {
+    display: block;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.brand__sudheadline-pink {
+    color: $pink;
+}

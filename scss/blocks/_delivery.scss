@@ -1,0 +1,122 @@
+.delivery {
+    margin: 0 0 0 128px;
+}
+
+.delivery__title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: $black;
+    text-transform: uppercase;
+}
+
+.delivery__input {
+    width: 360px;
+    min-height: 45px;
+    margin: 20px 0 0;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    padding: 13px 17px 16px;
+    box-sizing: border-box;
+    border: 1px solid #A4A4A4;
+}
+
+.delivery__input::placeholder {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: $black;
+}
+
+.delivery__get-button {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    background-color: transparent;
+    border: 1px solid #A4A4A4;
+    padding: 11px 15px;
+    margin: 23px 0 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.delivery__get-button:hover,
+.delivery__get-button:focus {
+    color: var(--pink);
+    border: 1px solid var(--pink);
+}
+
+.delivery__get-button:active {
+    color: #4A4A4A;
+    border: 1px solid #A4A4A4;
+}
+
+.delivery__counting {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 360px;
+    min-height: 214px;
+    margin: 57px 0 0;
+    padding: 39px 34px 43px;
+    box-sizing: border-box;
+    background-color: #F5F3F3;;
+}
+
+.delivery__sub-total {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    text-transform: uppercase;
+
+}
+
+.delivery__grand-total {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px; 
+    color: var(--black);
+    text-transform: uppercase;
+    margin: 12px 0 0;
+}
+
+.delivery__grand-price {
+    color: var(--pink);
+}
+
+.delivery__line {
+    margin: 21px 0 17px;
+    color: #E2E2E2;
+    width: 100%;
+    background-color: #E2E2E2;
+
+}
+
+.delivery__proceed-button {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: $pink;
+    padding: 15px 42px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.delivery__proceed-button:hover,
+.delivery__proceed-button:focus {
+    color: $pink;
+    background-color: #FFFFFF;;
+    border: 1px solid $pink;
+}
+
+.delivery__proceed-button:active {
+    color: #FFFFFF;
+    background-color: $pink;
+    border: none;    
+}

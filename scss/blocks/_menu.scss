@@ -1,0 +1,36 @@
+.menu__list {
+    padding: 37px 34px 0;
+}
+
+.menu__title {
+    margin: 0 0 24px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.menu__section-name {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: $pink;
+    text-transform: uppercase;
+    margin: 0 0 11px;
+}
+
+.menu__sublist {
+    margin: 0 0 20px;
+}
+
+.menu__sublist-item {
+    margin: 11px 20px 0;
+}
+
+.menu__link {
+    text-decoration: none;
+    margin: 11px 0 0;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;    
+} 

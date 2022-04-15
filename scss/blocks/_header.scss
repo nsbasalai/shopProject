@@ -1,0 +1,98 @@
+
+.header {
+    background-color: $black;
+}
+
+.header__wrp {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    align-items: center;
+}
+
+
+.header__group {
+    display: flex;
+    align-items: center;
+}
+
+
+.header__logo {
+    margin-right: 41px;
+}
+
+.header__element {
+    fill: #E8E8E8;
+}
+
+.header__element:active {
+    fill: #E8E8E8;
+}
+
+.header__element:hover {
+    fill: $pink;
+}
+
+.header__button:hover .header__element, 
+.header__button:focus .header__element {
+    fill: $pink;
+}
+
+.header__button:active .header__element {
+    fill: white;
+}
+
+.header__link:hover .header__element,
+.header__link:focus .header__element {
+    fill: $pink;
+}
+
+.header__link:active .header__element {
+    fill: white;
+}
+
+.header__search {
+    margin: 0 20px 0;
+    background-color: transparent;
+    border: $pink 1px solid;
+    padding: 6px 10px 6px;
+    border-radius: 15px;
+}
+
+.header__search::placeholder {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.header__button:hover+.header__nav {
+    display: block;
+}
+
+.header__nav {
+    position: absolute;
+    right: 0;
+    top: 75px;
+    display: none;
+    min-width: 232px;
+    min-height: 765px;
+    background-color: #fff;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+ }
+ 
+ .header__item {
+     margin-left: 33px;
+ }

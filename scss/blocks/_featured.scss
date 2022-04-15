@@ -1,0 +1,173 @@
+.featured__headline {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: $black;
+    margin: 97px 0 6px;
+}
+
+.featured__description {
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    text-align: center;
+}
+
+.featured__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 48px 0 0 0;
+}
+
+.featured__item {
+    width: 360px;
+    margin: 0 0 30px;
+    background-color: #F8F8F8;
+    box-sizing: border-box;
+}
+
+.featured__card {
+    width: 360px;
+    height: 420px;
+    position: relative;
+    margin: 0 0 25px;
+}
+
+.featured__jacket {
+    background-image: url(../img/jacket.jpg);
+    min-height: 420px;
+}
+
+.featured__black-blazer {
+    background-image: url(../img/black-blazer.jpg);
+    min-height: 420px;
+}
+
+.featured__sweater {
+    background-image: url(../img/sweater.jpg);
+    min-height: 420px;
+}
+
+.featured__blue-t-shirt {
+    background-image: url(../img/blue-t-shirt.jpg);
+    min-height: 420px;
+}
+
+.featured__blue-blazer {
+    background-image: url(../img/blue-blazer.jpg);
+    min-height: 420px;
+}
+
+.featured__shirt {
+    background-image: url(../img/shirt.jpg);
+    min-height: 420px;
+}
+
+.featured__overlay {
+    display: none;
+    width: 100%;
+    min-height: 420px;
+    background: rgba(58, 56, 56, 0.86);
+    position: absolute;
+    top: 0;   
+}
+
+.featured__card:hover .featured__overlay {
+    display: block;
+}
+
+.featured__hidden-button {
+    display: none;
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 13px 15px 13px 4px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.featured__card:hover .featured__hidden-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.featured__hidden-button:active {
+    color: $pink;
+    text-align: center;
+    padding: 13px 15px 13px 4px;
+    border: 1px solid $pink;
+}
+
+.featured__hidden-color {
+    fill: white;
+}
+
+.featured__hidden-button:active .featured__hidden-color {
+    fill: $pink;
+}
+
+.featured__hidden-basket {
+    margin: 0 11px 0;
+}
+
+.featured__link {
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0 18px 0;
+}
+
+.featured__about {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 12px 18px 18px;
+}
+
+.featured__price {
+    font-size: 16px;
+    line-height: 19px;
+    color: $pink;
+    margin: 0 18px 20px;
+}
+
+.featured__button-wrp {
+    display: flex;
+    justify-content: center
+}
+
+.featured__button {
+    margin: 32px 0 0 0;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 14px 38px;
+    background-color: transparent;
+    border: 1px solid $pink;
+    color: $pink;
+    text-align: center;
+    cursor: pointer;
+}
+
+.featured__button:hover, 
+.featured__button:focus {
+    background-color: $pink;
+    color: #FFFFFF;
+}
+
+.featured__button:active {
+    background-color: transparent;
+    border: 1px solid $pink;
+    color: $pink;
+}
