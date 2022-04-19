@@ -1,0 +1,91 @@
+.purchase {
+    display: flex;
+    flex-direction: column;
+}
+
+.purchase__list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 72px;
+}
+
+.purchase__item {
+    display: flex;
+    margin: 0 0 40px;
+    width: 652px;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+
+.purchase__close {
+    background-image: url(../img/close.svg);
+    width: 18px;
+    height: 18px;
+    margin: 28px 0 0 35px;
+}
+
+.purchase__image {
+    width: 262px;
+    height: 306px;
+}
+
+.purchase__description {
+    padding: 22px 0 0 31px;
+}
+
+.purchase__title {
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin: 0 0 36px;
+    color: $black;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.purchase__text {
+    font-size: 22px;
+    line-height: 26px;
+    margin: 6px 0 0;
+    color: #575757;
+}
+
+.purchase__price {
+    color: $pink;
+}
+
+.purchase__number {
+    font-size: 18px;
+    line-height: 22px;
+    border: 1px solid #EAEAEA;
+    padding: 1px 16px;
+    margin: 0 0 0 24px;
+}
+
+.purchase__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 128px;
+}
+
+.purchase__button {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 16px 40px;
+    text-transform: uppercase;
+    border: 1px solid #A4A4A4;
+    background-color: transparent;
+    cursor: pointer;
+    color: $black;
+}
+
+.purchase__button:hover,
+.purchase__button:focus {
+    border: 1px solid $pink;
+    color: $pink;
+}
+
+.purchase__button:active {
+    border: 1px solid #A4A4A4;
+    color: $black;
+}

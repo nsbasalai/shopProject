@@ -1,0 +1,102 @@
+.subscribe {
+    min-height: 448px;
+    background-image: url(../img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subscribe__wrp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe__comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe__img {
+    width: 96px;
+    height: 96px;
+    margin: 97px 0 30px;
+}
+
+.subscribe__quote {
+    width: 360px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.subscribe__italic {
+    font-style: italic;
+}
+
+.subscribe__form {
+    margin: 150px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe__headline {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+.subscribe__subheadline {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 32px;
+}
+
+.subscribe__input {
+    padding: 18px 22px;
+    background-color: #E1E1E1;
+    border: none;
+    -webkit-border-top-left-radius: 50px;
+    -webkit-border-bottom-left-radius: 50px;
+    -moz-border-radius-topleft: 50px;
+    -moz-border-radius-bottomleft: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.subscribe__input::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.subscribe__button{
+    padding: 18px 22px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background-color: $pink;
+    border: none;
+    -webkit-border-top-right-radius: 50px;
+    -webkit-border-bottom-right-radius: 50px;
+    -moz-border-radius-topright: 50px;
+    -moz-border-radius-bottomright: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+}
+
+.subscribe__button:hover,
+.subscribe__button:focus {
+    background-color: transparent;
+    border: 1px solid $pink;
+    color: $pink;
+}
+
+.subscribe__button:active {
+    color: #FFFFFF;
+    background-color: $pink;
+    border: none;
+}

@@ -1,0 +1,14 @@
+.shopping {
+    background-color: #F8F3F4;
+    min-height: 148px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 64px;
+}
+
+.shopping__headline {
+    font-size: 24px;
+    line-height: 29px;
+    color: $pink;
+    text-transform: uppercase;
+}
