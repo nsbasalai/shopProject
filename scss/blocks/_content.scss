@@ -34,3 +34,22 @@
     left: -42px;
     background-image: url(../img/check.svg);
 }
+
+@media (max-width: $desktop-width) {
+    .content__perks {
+        font-size: 16px;
+        line-height: 19px;
+        margin: 0 0 0 22px;
+    }
+}
+
+@media (max-width: $tablet-width) {
+    .content__wrp {
+        flex-direction: column;
+        width: 360px;
+    }
+
+    .content__perks {
+        margin: 0 0 100px;
+    }
+}

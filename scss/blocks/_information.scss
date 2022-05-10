@@ -42,3 +42,30 @@
     text-align: center;
     color: #FBFBFB;
 }
+
+@media (max-width: $desktop-width) {
+    .information__wrp {
+        justify-content: center;
+    }
+
+    .information__list {
+        flex-direction: column;
+        margin: 48px 0 16px;
+        width: 320px;
+    }
+
+    .information__item {
+        margin: 0 0 48px;
+    }
+}
+
+@media (max-width: $tablet-width) {
+    .information__list {
+        flex-direction: column;
+        margin: 48px 0 16px;
+    }
+
+    .information__item {
+        margin: 0 0 48px;
+    }
+}

@@ -106,6 +106,7 @@
     padding: 15px 42px;
     border: none;
     text-transform: uppercase;
+    align-self: center;
 }
 
 .delivery__proceed-button:hover,
@@ -119,4 +120,37 @@
     color: #FFFFFF;
     background-color: $pink;
     border: none;    
+}
+
+@media (max-width: $desktop-width) {
+    .delivery {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 128px;
+    }
+
+    .delivery__form {
+        width: 360px;
+    }
+
+    .delivery__counting {
+        margin: 40px 0 0;
+        height: 214px;
+    }
+
+    .delivery__proceed-button {
+        padding: 15px 30px;
+    }
+}
+
+@media (max-width: $tablet-width) {
+    .delivery {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 96px;
+    }
+
+    .delivery__get-button {
+        font-weight: 400;
+    }
 }

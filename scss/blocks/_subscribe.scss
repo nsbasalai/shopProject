@@ -100,3 +100,44 @@
     background-color: $pink;
     border: none;
 }
+
+@media (max-width: $desktop-width) {
+    .subscribe__wrp {
+        flex-direction: column;
+    }
+
+    .subscribe__form {
+        margin: 48px 0 140px;
+    }
+
+    .subscribe__img {
+        margin: 63px 0 30px;
+    }
+}
+
+@media (max-width: $tablet-width) {
+    .subscribe__form {
+        margin: 60px 0 110px;
+    }
+
+    .subscribe__img {
+        margin: 63px 0 30px;
+    }
+
+    .subscribe__headline {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 37px;
+    }
+    
+    .subscribe__subheadline {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    .subscribe__quote {
+        font-size: 18px;
+        line-height: 22px;
+        width: 343px;
+    }
+}
