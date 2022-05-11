@@ -14,6 +14,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 31.6%;
+}
+
+.subscribe__email {
+    display: flex;
+    justify-content: center;
 }
 
 .subscribe__img {
@@ -23,7 +29,6 @@
 }
 
 .subscribe__quote {
-    width: 360px;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
@@ -38,6 +43,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 31.6%;
 }
 
 .subscribe__headline {
@@ -91,7 +97,7 @@
 .subscribe__button:hover,
 .subscribe__button:focus {
     background-color: transparent;
-    border: 1px solid $pink;
+    outline: 1px solid $pink;
     color: $pink;
 }
 
@@ -101,21 +107,30 @@
     border: none;
 }
 
-@media (max-width: $desktop-width) {
+@media (max-width: $tablet-width) {
     .subscribe__wrp {
         flex-direction: column;
     }
 
     .subscribe__form {
         margin: 48px 0 140px;
+        width: 100%;
     }
 
     .subscribe__img {
         margin: 63px 0 30px;
     }
+
+    .subscribe__quote {
+        width: 95.5%;
+    }
+
+    .subscribe__comment {
+        width: 100%;;
+    }
 }
 
-@media (max-width: $tablet-width) {
+@media (max-width: $mobile-width) {
     .subscribe__form {
         margin: 60px 0 110px;
     }
@@ -131,7 +146,7 @@
     }
     
     .subscribe__subheadline {
-        font-size: 14px;
+        font-size: 10px;
         line-height: 21px;
     }
     
@@ -140,4 +155,18 @@
         line-height: 22px;
         width: 343px;
     }
+
+    .subscribe__input {
+        padding: 14px 18px;
+    }
+    
+    .subscribe__input::placeholder {
+        font-size: 10px;
+    }
+    
+    .subscribe__button{
+        padding: 14px 18px;
+        font-size: 10px;
+    }
 }
+

@@ -10,7 +10,7 @@
     text-align: center;
     justify-content: center;
     box-sizing: border-box;
-    width: 360px;
+    width: 31.6%;
     min-height: 260px;
 }
 
@@ -34,27 +34,33 @@
 
 .sections__item--women {
     background-image: url(../img/for-women.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sections__item--men {
     background-image: url(../img/for-men.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .sections__item--kids {
     background-image: url(../img/for-kids.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .sections__item--accesories {
     background-image: url(../img/accesories.jpg);
     width: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
     min-height: 180px;
     margin: 30px 0 0 0;
 }
 
-@media (max-width: $desktop-width) {
+@media (max-width: $tablet-width) {
     .sections__item {
-        width: 232px;
         min-height: 167px;
     }
 
@@ -64,9 +70,9 @@
     }
 }
 
-@media (max-width: $tablet-width) {
+@media (max-width: $mobile-width) {
     .sections__item {
-        width: 343px;
+        width: 100%;
         min-height: 247px;
         margin: 0 0 32px;
     }

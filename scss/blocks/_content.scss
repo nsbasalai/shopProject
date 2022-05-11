@@ -35,7 +35,7 @@
     background-image: url(../img/check.svg);
 }
 
-@media (max-width: $desktop-width) {
+@media (max-width: $tablet-width) {
     .content__perks {
         font-size: 16px;
         line-height: 19px;
@@ -43,7 +43,7 @@
     }
 }
 
-@media (max-width: $tablet-width) {
+@media (max-width: $mobile-width) {
     .content__wrp {
         flex-direction: column;
         width: 360px;

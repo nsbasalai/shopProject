@@ -21,14 +21,14 @@
 }
 
 .featured__item {
-    width: 360px;
+    width: 31.6%;
     margin: 0 0 30px;
     background-color: #F8F8F8;
     box-sizing: border-box;
 }
 
 .featured__card {
-    width: 360px;
+    width: 100%;
     height: 420px;
     position: relative;
     margin: 0 0 25px;
@@ -37,31 +37,37 @@
 .featured__jacket {
     background-image: url(../img/jacket.jpg);
     min-height: 420px;
+    background-position: center;
 }
 
 .featured__black-blazer {
     background-image: url(../img/black-blazer.jpg);
     min-height: 420px;
+    background-position: center;
 }
 
 .featured__sweater {
     background-image: url(../img/sweater.jpg);
     min-height: 420px;
+    background-position: center;
 }
 
 .featured__blue-t-shirt {
     background-image: url(../img/blue-t-shirt.jpg);
     min-height: 420px;
+    background-position: center;
 }
 
 .featured__blue-blazer {
     background-image: url(../img/blue-blazer.jpg);
     min-height: 420px;
+    background-position: center;
 }
 
 .featured__shirt {
     background-image: url(../img/shirt.jpg);
     min-height: 420px;
+    background-position: center;
 }
 
 .featured__overlay {
@@ -172,23 +178,27 @@
     color: $pink;
 }
 
-@media (max-width: $desktop-width) {
+@media (max-width: $tablet-width) {
     .featured__headline {
         margin: 155px 0 6px;
     }
+
+    .featured__item {
+        width: 49%;
+    }
 }
 
-@media (max-width: $tablet-width) {
+@media (max-width: $mobile-width) {
     .featured__headline {
         margin: 32px 0 6px;
     }
 
     .featured__item {
-        width: 360px;
+        width: 100%;
         margin: 0 0 30px;
     }
 
     .featured__wrp {
-        width: 359px;
+        width: 91.4%;
     }
 }
