@@ -171,3 +171,24 @@
     border: 1px solid $pink;
     color: $pink;
 }
+
+@media (max-width: $desktop-width) {
+    .featured__headline {
+        margin: 155px 0 6px;
+    }
+}
+
+@media (max-width: $tablet-width) {
+    .featured__headline {
+        margin: 32px 0 6px;
+    }
+
+    .featured__item {
+        width: 360px;
+        margin: 0 0 30px;
+    }
+
+    .featured__wrp {
+        width: 359px;
+    }
+}

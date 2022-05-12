@@ -12,3 +12,14 @@
     color: $pink;
     text-transform: uppercase;
 }
+
+.shopping__wrp {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: $desktop-width) {
+    .shopping__wrp {
+        flex-direction: column;
+    }
+}

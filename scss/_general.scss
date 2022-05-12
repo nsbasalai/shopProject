@@ -27,7 +27,14 @@ footer {
     background-color: $black;
 }
 
-.container--wrp {
-    display: flex;
-    justify-content: space-between;
+@media (max-width: $desktop-width) {
+    .container {
+        width: 734px;
+    }
+}
+
+@media (max-width: $tablet-width) {
+    .container {
+        width: 360px;
+    }
 }

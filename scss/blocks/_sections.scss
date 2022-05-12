@@ -12,7 +12,6 @@
     box-sizing: border-box;
     width: 360px;
     min-height: 260px;
-
 }
 
 .sections__caption {
@@ -51,4 +50,33 @@
     background-repeat: no-repeat;
     min-height: 180px;
     margin: 30px 0 0 0;
+}
+
+@media (max-width: $desktop-width) {
+    .sections__item {
+        width: 232px;
+        min-height: 167px;
+    }
+
+    .sections__item--accesories {
+        min-height: 116px;
+        width: 100%;
+    }
+}
+
+@media (max-width: $tablet-width) {
+    .sections__item {
+        width: 343px;
+        min-height: 247px;
+        margin: 0 0 32px;
+    }
+
+    .sections__item--accesories {
+        min-height: 111px;
+        width: 100%;
+    }
+
+    .sections__list {
+        justify-content: center;
+    }
 }
