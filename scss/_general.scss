@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -34,6 +33,12 @@ footer {
 }
 
 @media (max-width: $mobile-width) {
+    .container {
+        width: 91.4%;
+    }
+}
+
+@media (max-width: $desktop-mid-width) {
     .container {
         width: 91.4%;
     }

@@ -35,6 +35,7 @@
 .sections__item--women {
     background-image: url(../img/for-women.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
@@ -42,12 +43,14 @@
     background-image: url(../img/for-men.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .sections__item--kids {
     background-image: url(../img/for-kids.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .sections__item--accesories {
@@ -67,6 +70,14 @@
     .sections__item--accesories {
         min-height: 116px;
         width: 100%;
+    }
+
+    .sections__caption {
+        font-size: 14px;
+    }
+
+    .sections__item-link {
+        font-size: 18px;
     }
 }
 

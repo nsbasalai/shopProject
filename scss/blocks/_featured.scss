@@ -29,44 +29,49 @@
 
 .featured__card {
     width: 100%;
-    height: 420px;
+    height: 72.2%;
     position: relative;
-    margin: 0 0 25px;
 }
 
 .featured__jacket {
     background-image: url(../img/jacket.jpg);
     min-height: 420px;
+    background-size: cover;
     background-position: center;
 }
 
 .featured__black-blazer {
     background-image: url(../img/black-blazer.jpg);
     min-height: 420px;
+    background-size: cover;
     background-position: center;
 }
 
 .featured__sweater {
     background-image: url(../img/sweater.jpg);
     min-height: 420px;
+    background-size: cover;
     background-position: center;
 }
 
 .featured__blue-t-shirt {
     background-image: url(../img/blue-t-shirt.jpg);
     min-height: 420px;
+    background-size: cover;
     background-position: center;
 }
 
 .featured__blue-blazer {
     background-image: url(../img/blue-blazer.jpg);
     min-height: 420px;
+    background-size: cover;
     background-position: center;
 }
 
 .featured__shirt {
     background-image: url(../img/shirt.jpg);
     min-height: 420px;
+    background-size: cover;
     background-position: center;
 }
 
@@ -76,7 +81,7 @@
     min-height: 420px;
     background: rgba(58, 56, 56, 0.86);
     position: absolute;
-    top: 0;   
+    top: 0;
 }
 
 .featured__card:hover .featured__overlay {
@@ -86,7 +91,7 @@
 .featured__hidden-button {
     display: none;
     position: absolute;
-    top: 50%;  
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 14px;
@@ -125,13 +130,18 @@
     margin: 0 11px 0;
 }
 
+.featured__item-description {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 18px 20px;
+}
+
 .featured__link {
     text-decoration: none;
     font-size: 13px;
     line-height: 16px;
     color: #000000;
     text-transform: uppercase;
-    margin: 0 18px 0;
 }
 
 .featured__about {
@@ -139,14 +149,13 @@
     font-size: 14px;
     line-height: 17px;
     color: #000000;
-    margin: 12px 18px 18px;
+    margin: 12px 0 18px;
 }
 
 .featured__price {
     font-size: 16px;
     line-height: 19px;
     color: $pink;
-    margin: 0 18px 20px;
 }
 
 .featured__button-wrp {
@@ -166,7 +175,7 @@
     cursor: pointer;
 }
 
-.featured__button:hover, 
+.featured__button:hover,
 .featured__button:focus {
     background-color: $pink;
     color: #FFFFFF;
@@ -188,6 +197,18 @@
     }
 }
 
+@media (max-width: $tablet-mobile-mid-width) {
+    .featured__card {
+        height: 69%;
+    }
+}
+
+@media (max-width: 400px) {
+    .featured__card {
+        height: 63%;
+    }
+}
+
 @media (max-width: $mobile-width) {
     .featured__headline {
         margin: 32px 0 6px;
@@ -196,6 +217,10 @@
     .featured__item {
         width: 100%;
         margin: 0 0 30px;
+    }
+
+    .featured__card {
+        height: 70%;
     }
 
     .featured__wrp {
