@@ -1,0 +1,32 @@
+.product {
+    background-color: #F8F3F4;
+    min-height: 148px;
+    display: flex;
+    align-items: center;
+}
+
+.product__wrp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__headline {
+    font-size: 24px;
+    line-height: 29px;
+    color: $pink;
+    text-transform: uppercase;
+}
+
+.product__bread {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.product__bread-pink {
+    color: $pink;
+    font-weight: 700;
+}

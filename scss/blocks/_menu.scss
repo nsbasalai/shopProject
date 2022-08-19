@@ -24,7 +24,7 @@
 }
 
 .menu__sublist-item {
-    margin: 11px 20px 0;
+    padding: 11px 20px 0;
 }
 
 .menu__link {
@@ -34,3 +34,11 @@
     line-height: 17px;
     color: #6F6E6E;    
 } 
+
+// .menu__sublist-item:hover {
+//    background-color: $light-pink;
+// } - выделяет цветом элемент списка, но не блоком, а куском. не очень визуально
+
+@media (max-width: $tablet-width) {
+    
+}

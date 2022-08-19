@@ -30,7 +30,21 @@
     opacity: 1;
 }
 
-@media (max-width: $tablet-width) {
+@media (max-width: $mobile-width) {
+    .socials__wrp {
+        min-height: 143px;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .socials__list {
+        margin: 43px 0 0;
+    }
+    .socials__rights {
+        margin: 40px 0 9px;
+    }
+}
+
+@media (max-width: $tablet-mobile-mid-width) {
     .socials__wrp {
         min-height: 143px;
         flex-direction: column-reverse;

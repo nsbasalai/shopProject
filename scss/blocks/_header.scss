@@ -1,4 +1,3 @@
-
 .header {
     background-color: $black;
 }
@@ -33,8 +32,8 @@
     fill: $pink;
 }
 
-.header__button:hover .header__element, 
-.header__button:focus .header__element {
+// .header__button:focus .header__element,
+.header__button:hover .header__element {
     fill: $pink;
 }
 
@@ -42,8 +41,8 @@
     fill: white;
 }
 
-.header__link:hover .header__element,
-.header__link:focus .header__element {
+// .header__link:focus .header__element,
+.header__link:hover .header__element {
     fill: $pink;
 }
 
@@ -54,9 +53,11 @@
 .header__search {
     margin: 0 20px 0;
     background-color: transparent;
-    border: $pink 1px solid;
+    outline: $pink 1px solid;
+    border: none;
     padding: 6px 10px 6px;
     border-radius: 15px;
+    caret-color: white;
 }
 
 .header__search::placeholder {
@@ -78,16 +79,13 @@
     position: relative;
 }
 
-.header__button:hover+.header__nav {
-    display: block;
-}
-
 .header__nav {
     position: absolute;
     right: 0;
     top: 75px;
     display: none;
-    min-width: 232px;
+    z-index: 1;
+    width: 232px;
     min-height: 765px;
     background-color: #fff;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
@@ -97,10 +95,13 @@
     margin-left: 33px;
 }
 
-@media (max-width: $tablet-width) {
+@media (max-width: $mobile-width) {
     .header_item--hidden {
-    display: none;
+        display: none;
     }
+}
+
+@media (max-width: $tablet-width) {
 
     .header__search {
         display: none;

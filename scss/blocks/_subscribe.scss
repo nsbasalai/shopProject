@@ -14,6 +14,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 31.6%;
+}
+
+.subscribe__email {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .subscribe__img {
@@ -23,7 +30,6 @@
 }
 
 .subscribe__quote {
-    width: 360px;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
@@ -56,6 +62,7 @@
 }
 
 .subscribe__input {
+    width: 89%;
     padding: 18px 22px;
     background-color: #E1E1E1;
     border: none;
@@ -72,7 +79,11 @@
     line-height: 17px;
 }
 
-.subscribe__button{
+.subscribe__input:focus {
+    outline: none;
+}
+
+.subscribe__button {
     padding: 18px 22px;
     font-size: 14px;
     line-height: 17px;
@@ -91,7 +102,7 @@
 .subscribe__button:hover,
 .subscribe__button:focus {
     background-color: transparent;
-    border: 1px solid $pink;
+    outline: 1px solid $pink;
     color: $pink;
 }
 
@@ -101,21 +112,32 @@
     border: none;
 }
 
-@media (max-width: $desktop-width) {
+@media (max-width: $tablet-width) {
     .subscribe__wrp {
         flex-direction: column;
+        width: 50%;
     }
 
     .subscribe__form {
         margin: 48px 0 140px;
+        width: 100%;
     }
 
     .subscribe__img {
         margin: 63px 0 30px;
     }
+
+    .subscribe__quote {
+        width: 95.5%;
+    }
+
+    .subscribe__comment {
+        width: 100%;
+        ;
+    }
 }
 
-@media (max-width: $tablet-width) {
+@media (max-width: $mobile-width) {
     .subscribe__form {
         margin: 60px 0 110px;
     }
@@ -129,15 +151,28 @@
         font-size: 24px;
         line-height: 37px;
     }
-    
+
     .subscribe__subheadline {
-        font-size: 14px;
+        font-size: 10px;
         line-height: 21px;
     }
-    
+
     .subscribe__quote {
         font-size: 18px;
         line-height: 22px;
-        width: 343px;
+        width: 100%;
+    }
+
+    .subscribe__input {
+        padding: 14px 18px;
+    }
+
+    .subscribe__input::placeholder {
+        font-size: 10px;
+    }
+
+    .subscribe__button {
+        padding: 14px 18px;
+        font-size: 10px;
     }
 }

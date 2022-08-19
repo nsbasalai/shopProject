@@ -1,0 +1,106 @@
+.description__wrp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #EAEAEA;
+    margin: auto;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+    padding: 65px 0;
+    max-height: 601px;
+    margin: -55px auto 0;
+}
+
+
+.description__collection {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: $pink;
+    text-transform: uppercase;
+}
+
+.description__name {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    text-transform: uppercase;
+}
+
+.description__line {
+    height: 3px;
+    width: 5%;
+    background-color: $pink;
+    border: none;
+    margin: 12px 0;
+}
+
+.description__caption {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    width: 48.6%;
+    margin: 48px 0 32px;
+}
+
+.description__price {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: $pink;
+    margin: 32px 0 0;
+}
+
+.description__list {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+
+.description__filter {
+    width: 10px;
+    height: 5px;
+}
+
+.description__filter-line {
+    width: 56%;
+    align-self: center;
+    color: #EAEAEA;
+    margin: 65px 0;
+}
+
+.description__arrow-button {
+    background-color: transparent;
+    border: transparent;
+    margin: 0 23px 0 0;
+    height: 17px;
+}
+
+.description__button {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding: 13px 56px 13px 24px;
+    background-color: #FFFFFF;
+    border: 1px solid $pink;
+    cursor: pointer;
+    margin: 49px 0 0;
+    color: $pink;
+    align-items: center;
+    display: flex;
+}
+
+
+.description__button-basket {
+    margin: 0 11px 0;
+    fill: $pink;
+}
+
+.description__featured {
+    margin: 129px 0 0;
+}
